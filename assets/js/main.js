@@ -77,7 +77,7 @@
       // Loading state
       if (btn) {
         btn.disabled = true;
-        btn.innerHTML = '<span class="btn-spinner"></span> Enviando…';
+        btn.innerHTML = '<span class="btn-spinner"></span> ' + (window.KT_I18N && window.KT_I18N.lang === 'en' ? 'Sending…' : 'Enviando…');
       }
 
       try {

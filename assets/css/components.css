@@ -38,6 +38,41 @@
   transition: all .2s;
 }
 .nav-cta:hover { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Language toggle */
+.lang-toggle {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  font-family: var(--mono);
+  font-size: 11.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  cursor: pointer;
+  transition: all .25s ease;
+  background: transparent;
+  white-space: nowrap;
+}
+.lang-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.lang-toggle:hover svg {
+  color: var(--accent);
+}
+.lang-toggle svg {
+  transition: color .25s ease;
+  flex-shrink: 0;
+}
+
 @media (max-width: 720px) { .nav-links { display: none; } }
 
 /* ----- Buttons ----- */
