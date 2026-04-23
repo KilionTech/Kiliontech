@@ -40,7 +40,7 @@ window.KT_I18N = (function () {
 
       /* — Services (individuals) — */
       'srv.section':       '01 · Servicios',
-      'srv.heading':       'Tres cosas que hacemos, <em>bien hechas</em>.',
+      'srv.heading':       'Cuatro cosas que hacemos, <em>bien hechas</em>.',
 
       'srv1.title':        'Software a medida y automatizaciones',
       'srv1.tag':          'scripts · bots · webs · integraciones',
@@ -57,6 +57,16 @@ window.KT_I18N = (function () {
       'srv2.li2':          'Portátiles lentos, limpieza, upgrades',
       'srv2.li3':          'Recuperación de datos básica',
       'srv2.from':         'Desde',
+
+      'srvW.title':        'Páginas web',
+      'srvW.tag':          'negocios · autónomos · particulares',
+      'srvW.desc':         '¿Quieres tener tu propio espacio en internet? Te creamos una web en 3–4 días, lista para que te encuentren.',
+      'srvW.li1':          'Diseño adaptado a móvil y ordenador',
+      'srvW.li2':          'Formulario de contacto directo',
+      'srvW.li3':          'Lista para usar, es tuya para siempre',
+      'srvW.note':         'Con dominio: 249 € · Sin dominio: 199 €',
+      'srvW.maint':        '¿Mantenimiento? Desde 20 €/mes',
+      'srvW.from':         'Desde',
 
       'srv3.title':        'Apps propias',
       'srv3.tag':          'android · windows',
@@ -126,8 +136,9 @@ window.KT_I18N = (function () {
       'form.topic':        '¿En qué podemos ayudarte?',
       'form.topic.o1':     'Software a medida / automatización',
       'form.topic.o2':     'Reparación técnica',
-      'form.topic.o3':     'App propia / idea nueva',
-      'form.topic.o4':     'Otra cosa',
+      'form.topic.o3':     'Página web',
+      'form.topic.o4':     'App propia / idea nueva',
+      'form.topic.o5':     'Otra cosa',
       'form.msg':          'Cuéntanos un poco',
       'form.msg.ph':       'Tengo un bar y quiero automatizar las reservas…',
       'form.disclaimer':   'Respondemos en 24 h. Sin compromiso.',
@@ -141,6 +152,7 @@ window.KT_I18N = (function () {
       'foot.h.services':   'Servicios',
       'foot.custom':       'Software a medida',
       'foot.repairs':      'Reparaciones',
+      'foot.webs':         'Páginas web',
       'foot.apps':         'Apps propias',
       'foot.h.contact':    'Contacto',
       'foot.location':     'Gijón, Asturias · España',
@@ -484,7 +496,7 @@ window.KT_I18N = (function () {
 
       /* — Services (individuals) — */
       'srv.section':       '01 · Services',
-      'srv.heading':       'Three things we do, <em>done right</em>.',
+      'srv.heading':       'Four things we do, <em>done right</em>.',
 
       'srv1.title':        'Custom software & automations',
       'srv1.tag':          'scripts · bots · websites · integrations',
@@ -501,6 +513,16 @@ window.KT_I18N = (function () {
       'srv2.li2':          'Slow laptops, cleaning, upgrades',
       'srv2.li3':          'Basic data recovery',
       'srv2.from':         'From',
+
+      'srvW.title':        'Websites',
+      'srvW.tag':          'businesses · freelancers · individuals',
+      'srvW.desc':         'Want your own space on the internet? We build your website in 3–4 days, ready for people to find you.',
+      'srvW.li1':          'Mobile and desktop responsive design',
+      'srvW.li2':          'Direct contact form',
+      'srvW.li3':          'Ready to use, yours forever',
+      'srvW.note':         'With domain: €249 · Without domain: €199',
+      'srvW.maint':        'Maintenance? From €20/month',
+      'srvW.from':         'From',
 
       'srv3.title':        'Our own apps',
       'srv3.tag':          'android · windows',
@@ -570,8 +592,9 @@ window.KT_I18N = (function () {
       'form.topic':        'How can we help you?',
       'form.topic.o1':     'Custom software / automation',
       'form.topic.o2':     'Technical repair',
-      'form.topic.o3':     'Own app / new idea',
-      'form.topic.o4':     'Something else',
+      'form.topic.o3':     'Website',
+      'form.topic.o4':     'Own app / new idea',
+      'form.topic.o5':     'Something else',
       'form.msg':          'Tell us a bit more',
       'form.msg.ph':       'I run a bar and want to automate bookings…',
       'form.disclaimer':   'We reply within 24 h. No commitment.',
@@ -585,6 +608,7 @@ window.KT_I18N = (function () {
       'foot.h.services':   'Services',
       'foot.custom':       'Custom software',
       'foot.repairs':      'Repairs',
+      'foot.webs':         'Websites',
       'foot.apps':         'Our own apps',
       'foot.h.contact':    'Contact',
       'foot.location':     'Gijón, Asturias · Spain',
